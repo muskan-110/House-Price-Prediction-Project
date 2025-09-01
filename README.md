@@ -31,33 +31,26 @@ Bangalore-House-Price-Prediction/
 ## ⚡ How to Run Locally
 ## ⚙️ Backend (Flask + ML Model)-
 
-1. Go to server folder
-   cd server
+cd server
+ 
+python -m venv venv
 
-2. Create virtual environment
-   python -m venv venv
+. Windows:
+   venv\Scripts\activate
+. Mac/Linux:
+   source venv/bin/activate
 
-3.  Activate venv
-   . Windows:
-    venv\Scripts\activate
-   . Mac/Linux:
-    source venv/bin/activate
+ pip install -r requirements.txt
 
-5. Install dependencies
-   pip install -r requirements.txt
-
-6. Run backend
-   python server.py
+ python server.py
 
 
 ## 🎨 Frontend (React + Tailwind)-
-1. Go to client folder
-   cd client
 
-2. Install dependencies
-   npm install
+cd client
 
-3. Start frontend
-   npm start
+npm install
+
+npm start
 
 
