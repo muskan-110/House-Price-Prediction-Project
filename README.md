@@ -33,33 +33,33 @@ This project predicts house prices in Bangalore using a Machine Learning model (
 ## ⚡ How to Run Locally
 ## ⚙️ Backend (Flask + ML Model)-
 
-- Go to server folder
-cd server
+1. Go to server folder
+   cd server
 
-- Create virtual environment
-python -m venv venv
+2. Create virtual environment
+   python -m venv venv
 
-- Activate venv
-. Windows:
-venv\Scripts\activate
-. Mac/Linux:
-source venv/bin/activate
+3.  Activate venv
+   . Windows:
+    venv\Scripts\activate
+   . Mac/Linux:
+    source venv/bin/activate
 
-- Install dependencies
-pip install -r requirements.txt
+5. Install dependencies
+   pip install -r requirements.txt
 
-- Run backend
-python server.py
+6. Run backend
+   python server.py
 
 
 ## 🎨 Frontend (React + Tailwind)-
-- Go to client folder
-cd client
+1. Go to client folder
+   cd client
 
-- Install dependencies
-npm install
+2. Install dependencies
+   npm install
 
-- Start frontend
-npm start
+3. Start frontend
+   npm start
 
 
