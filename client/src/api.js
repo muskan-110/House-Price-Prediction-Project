@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://bangalore-house-price-prediction-gnp6.onrender.com/",  // Flask backend
+  baseURL: "https://bangalore-house-price-prediction-gnp6.onrender.com",  // Flask backend
 });
 
 export const predictPrice = (data) =>
