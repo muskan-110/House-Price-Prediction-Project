@@ -8,26 +8,27 @@ This project predicts house prices in Bangalore using a Machine Learning model (
 - ML model for price prediction
 
 ## 📂 Project Structure
+```
 Bangalore-House-Price-Prediction/
-│── 📂 client/ # React frontend (UI)
-│ ├── 📂 public/ # Static assets
-│ ├── 📂 src/ # React components & pages
-│ ├── 📄 package.json # Frontend dependencies
-│ ├── 📄 tailwind.config.js # TailwindCSS config
-│ └── 📄 postcss.config.js # PostCSS config
+│── 📂 client/                        # React frontend (UI)
+│   ├── 📂 public/                    # Static assets
+│   ├── 📂 src/                       # React components & pages
+│   ├── 📄 package.json               # Frontend dependencies
+│   ├── 📄 tailwind.config.js         # TailwindCSS config
+│   └── 📄 postcss.config.js          # PostCSS config
 │
-│── 📂 model/ # ML model & preprocessing
-│ ├── 📄 banglore_home_prices_model.pickle # Trained model
-│ ├── 📄 columns.json # Feature columns (locations, sqft, etc.)
-│ └── 📄 house_price_prediction.ipynb # Training notebook
+│── 📂 model/                         # ML model & preprocessing
+│   ├── 📄 banglore_home_prices_model.pickle  # Trained model
+│   ├── 📄 columns.json               # Feature columns (locations, sqft, etc.)
+│   └── 📄 house_price_prediction.ipynb       # Training notebook
 │
-│── 📂 server/ # Flask backend
-│ ├── 📄 server.py # Flask API
-│ ├── 📄 util.py # Helper functions
-│ └── 📄 requirements.txt # Backend dependencies
+│── 📂 server/                        # Flask backend
+│   ├── 📄 server.py                  # Flask API
+│   ├── 📄 util.py                    # Helper functions
+│   └── 📄 requirements.txt           # Backend dependencies
 │
-│── 📄 README.md # Project documentation
-
+│── 📄 README.md                      # Project documentation
+```
 ## ⚡ How to Run Locally
 ## ⚙️ Backend (Flask + ML Model)-
 
